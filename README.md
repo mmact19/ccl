@@ -1,2 +1,2 @@
-# ccl
+# CCL
 cycle-contrasitve learning
