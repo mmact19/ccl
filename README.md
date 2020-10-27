@@ -1,2 +1,2 @@
 # CCL
-cycle-contrasitve learning
+Cycle-Contrast for Self-Supervised Learning on Video Representation
