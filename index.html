@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Cycle-Contrastive Learning</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+  <meta charset="UTF-8">
+  <title>Cycle Contrastive Learning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta name="keywords" content="Lumada Data Science Lab,Hitachi,Vision,Video Representation,Learning,Action Recognition,Computer Science">
 </head>
 
 <body>
-<main>
-  <h1>Cycle-Contrast for Self-Supervised Video Represenation Learning</h1>
+  <div class="container">
+    <div row class="m-5">
+      <center>
+        <div class="col-md-12 m-4">
+          <h1>Cycle-Contrast for Self-Supervised Video Represenation Learning</h1>
+          <h5>Lumada Data Science Lab. Hitachi, Ltd.</h5>
+          <span class="hr"></span>
+        </div>
+        <center>
+          <div class="col-md-11 m-4 p-2">
+            <img src="img/ccl_web.png" width="550" vspace="10">
+            <p class="text-left"><b>Overview.</b> Cycle-Contrastive Learning - Learn a video representation is supposed to be closed across video and its frames yet distant to all the other videos and frames in corresponding domain, respectively.
+            </p>
+          </div>
+          <div class="col-md-11 m-4 p-2">
+            <h4 class="text-left">Abstract</h4>
+            <p class="text-left">Cycle-Contrastive Learning (CCL) is a self-supervised method for learning video representation.
+              Following a nature that there is a belong and inclusion relation of video and its frames,
+              CCL is designed to find correspondences across frames and videos considering the contrastive representation in their domains respectively.
+              It is different from recent approaches that merely learn correspon- dences across frames or clips.
+              In our method, the frame and video representations are learned from a single network based on an R3D architecture,
+              with a shared non-linear transformation for embedding both frame and video features before the cycle-contrastive loss.
+              We demonstrate that the video representation learned by CCL can be transferred well to downstream tasks of video understanding,
+              outperforming previous methods in nearest neighbour retrieval and action recognition on UCF101, HMDB51 and MMAct.</p>
+          </div>
+          <div class="col-md-11 m-4 p-2">
+            <h4 class="text-left">Publication</h4>
+            <ul class="text-left">
+              <li><b>Cycle-Contrast for Self-Supervised Video Representation Learning</b>
+                <p>Quan Kong, Wenpeng Wei, Ziwei Deng, Tomoaki Yoshinaga, Tomokazu Murakami<br>
+                  <b>NeurIPS 2020 (to appear)</b>, <a href="">PDF</a>, <a href="">Bibtex</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-11 m-4 p-2">
+            <h4 class="text-left">Presentation</h4>
+            <iframe src="//www.slideshare.net/slideshow/embed_code/key/3DxkBwnB8OgZ6J" width="450" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+              style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+            <div style="margin-bottom:5px"></div>
+          </div>
+          <!-- <div class="col-md-11 m-4">
+            <h4 class="text-left">Downloads</h4>
+          </div> -->
+          <div class="col-md-11 m-4 p-2">
+              <h4 class="text-left">Related Publications</h4>
+              <ul class="text-left">
+                <li><b>MMAct: A Large-Scale Dataset for Cross Modal Human Action Understanding</b>
+                  <p>Quan Kong, Ziming Wu, Ziwei Deng, Klinkigt Martin, Bin Tong, Tomokazu Murakami<br>
+                    <b>ICCV 2019</b>, <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Kong_MMAct_A_Large-Scale_Dataset_for_Cross_Modal_Human_Action_Understanding_ICCV_2019_paper.pdf">PDF</a>, <a href="https://mmact19.github.io/2019/">Project Page</a></p>
+                </li>
+              </ul>
+          </div>
+    </div>
 
-  <p>Project Page about will be open soon</p>
-</main>
+
+  </div>
 
 </body>
+
 </html>
+
+<style>
+  .hr {
+    display: block;
+    flex: 1;
+    margin: 0 0px;
+    height: 2px;
+    background: #D4D4D4;
+  }
+</style>
