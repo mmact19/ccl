@@ -17,13 +17,9 @@ body {
   -ms-transition: all;
   -o-transition: all;
   transition: all;
-  font-family: "Open Sans",
-    Segoe, "Segoe UI",
-    "Lucida Sans Unicode", "Lucida Grande",
-    "Avenir", "Seravek", "Ubuntu",
-    "DejaVu Sans", "Trebuchet MS", Verdana, Arial, sans-serif;
-  font-size: 14.4px;
-  line-height: 170%;
+  font-family: "Gill Sans", sans-serif;;
+  font-size: 16.5px;
+  line-height: 150%;
   text-align: justify;
   font-weight: 400
 }
@@ -170,7 +166,7 @@ div.publication div.text {
 }
 
 span.venue {
-  color: #882222
+  color: #0000BB
 }
 
 span.venue, span.tag {
